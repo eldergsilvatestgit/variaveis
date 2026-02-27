@@ -1,2 +1,10 @@
 let idade = 42;
 console.log(idade)
+
+let alturaEmMetros  = 1.73;
+
+console.log(alturaEmMetros)
+
+// string template
+
+console.log(`Minha idade é ${idade} anos , e  minha altura é  ${alturaEmMetros} metros `);
