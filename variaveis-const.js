@@ -1,3 +1,6 @@
-const  primeiroNome    = "Elder" ;
-console.log("primeiroNome");
+let  primeiroNome    = "Elder" ;
+console.log(primeiroNome);
+primeiroNome = "outro";
+console.log(primeiroNome);
+
 
