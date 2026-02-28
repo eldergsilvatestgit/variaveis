@@ -1,19 +1,20 @@
 let x = 10,y = 2;
 
 let resultado = x+y;
-
-console.log(resultado) // 12
+let mensagem =`A soma de ${x} mais  ${y} é  `+ resultado;
+console.log(mensagem) // 12
 
 resultado = x-y;
-
-
-console.log(resultado) // 8
+mensagem =`A subtração de ${x} menos ${y} é ` +resultado;
+console.log(mensagem) // 8
 
 
 resultado = x*y; // 20
-console.log(resultado)
+mensagem = `A multiplicação de ${x} vezes ${y} é `+ resultado;
+console.log(mensagem)
 
 resultado = x / y ; // 5
-console.log(resultado)
+mensagem = `A divisão  de ${x} dividido ${y}`+ resultado;
+console.log(mensagem)
 
 
